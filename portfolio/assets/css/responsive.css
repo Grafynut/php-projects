@@ -1,0 +1,247 @@
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+@media only screen and (max-width:1440px){
+    html{
+        font-size: 62.5% !important;
+    }
+    
+
+    
+ }
+
+ @media only screen and (max-width:1240px){
+    html{
+        font-size: 55% !important;
+    }
+    .p-respose{
+        padding: 0  5px !important;
+    }
+    .dec-img-2{
+        bottom: 170px;
+    }
+    .menu-list ul li{
+        width: 70%;
+    }
+ }
+
+
+
+
+@media only screen and (max-width:991px){
+    html{
+        font-size: 50% !important;
+    }
+    .myimg{
+        width: 325px;
+        height: 325px;
+    }
+    .dec-img-2{
+        bottom: 130px;
+    }
+    .p-respose{
+        padding: 0 0 0 5px !important;
+    }
+    .menu-list ul li{
+        width: 90%;
+    }
+
+
+
+
+    
+ }
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    html{
+        font-size: 42% !important;
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.271);
+        backdrop-filter: blur(5px);
+    }
+    
+
+    .nav-tgl{
+        width: 50px;
+        height: 50px;
+    }
+    .nav-tgl > span{
+        width: 25px;
+    }
+
+    .nav-tgl > span:before {
+        width: 25px;
+    }
+      .nav-tgl > span:after {
+        width: 18px;
+    }
+    .nav-tgl:hover > span:after, .nav-tgl:hover > span:before {
+        width: 25px;
+        left: 0;
+    }
+
+    .menu.active .nav{
+        width: 80vw;  
+    }
+
+    .menu.active .nav-tgl > span:after, .menu.active .nav-tgl > span:before {
+        width: 25px;
+    }
+    .nav:before{
+        width: 60vw;
+    }
+    .menu-list ul li{
+        width: 100%;
+    }
+
+
+
+    .shape3-img img{
+        max-width: 50px;
+    }
+    .title-heading{
+        margin: 20px 0;
+    }
+    .left{
+        display: grid;
+        place-items: center;
+        justify-content: center;
+    }
+    .right{
+        border: 0 !important;
+    }
+    .two{
+        position: absolute;
+        left: unset;
+        right: 0;
+    }
+    #header{
+        background: linear-gradient(180deg, #1950af 33.95%, #042763 72.82%);
+    }
+    #header .col-md-7, #header .col-md-5{
+        display: grid;
+        justify-content: center;
+    }
+    #body{
+        margin-top: 47px;
+    }
+    .intro{
+        margin-top: 30px;
+    }
+    .myimg{
+        margin-top: 30px;
+    }
+    .d-none{
+        display: none !important;
+    }
+    .myname, .info-text p{
+        color:#fff ;
+    }
+
+
+    .social-links{
+        top: 25px;
+        width: auto;
+        right: calc(100vw - 60%);
+        left: unset;
+        height: auto;
+        position: fixed;
+        z-index: 1000;
+    }
+    .social-links ul{
+        display: flex;
+        position: relative;
+        
+    }
+    .social-links ul li {
+        position: relative;
+        margin: 0 5px ;
+    }
+    .social-links .icon{
+        color: #fff !important;
+        border: 2px solid #fff !important;
+    }
+    
+    .icon-color-change1{
+        color: #fff !important;
+        border: 2px solid #fff !important;
+    }
+    .icon-color-change2{
+        color: #fff !important;
+        border: 2px solid #fff !important;
+    }
+
+    .box::before{
+        content: "";
+        display: none;
+    }
+    .social-links li:hover .icon{
+        transform: scale(1.2);
+        background-color: #0D0041;
+        color:#fff !important;
+    }
+    .social-links li:hover.box::before{
+        left: -35px;
+        transform: scale(1.4);
+    }
+    #gif{
+        bottom: -54px;
+    }
+
+
+    #form{
+        width: 60%;
+    }
+    .m-15{
+        margin-top: 15px;
+       }
+    
+
+    .night-mode{
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        right: 0;
+    }
+
+    .z-999{
+        z-index: 999;
+    }
+
+ }
+
+
+
+
+
+ 
+@media only screen and (max-width:575px){
+    html{
+        font-size: 35%;
+    }
+    .pdf-open{
+        width: 300px !important;
+        height: 70vh !important;
+    }
+    .resume-inner{
+        margin-top: 100px;
+    }
+    #close{
+        width: 30px;
+        height: 30px;
+        right: -25px;
+    }
+    .social-links{
+        right: calc(100vw - 67%);
+    }
+ }
